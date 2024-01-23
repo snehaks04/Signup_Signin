@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-mongoose.connect('mongodb+srv://admin:Mongomongo203@cluster0.0rbsm1g.mongodb.net/signin');
+mongoose.connect('your mongodb connection');
 const userSchema= new mongoose.Schema({
     name:{type : String , required : true},  //username of the user     
     email : { type : String,required :true },   //email id of the user
