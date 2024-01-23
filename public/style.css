@@ -1,0 +1,101 @@
+body{
+    /* background-color: black; */
+    
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    color: black;
+ 
+}
+#reg{
+    position:absolute;
+    top: 9rem; 
+ 
+}
+
+#log{
+      position:absolute;
+    top: 8rem;
+}
+
+.signup{
+    margin-top: 5rem;
+    padding: 1.5rem;
+    background-color: #e85d04;
+    border-radius: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+div{
+    margin-bottom: 2rem;
+    text-align: center;
+   
+}
+
+div>label{
+    float: left;
+    margin-bottom: .8rem;
+    font-size: 1.2rem;
+}
+div>input{
+    width: 100%;
+    height: 1.6rem;
+    border-radius:3px ; 
+    border: none;
+  
+}
+#signin{
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #e85d04;
+    border-radius: 20px;
+    position: relative;
+    z-index: 0;
+}
+button{
+    padding-inline: 2rem;
+    padding-block: .8rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffba08;
+    font-size: 1rem;
+}
+button:hover{
+    outline: 2px solid black;
+    outline-offset: .1rem;
+}
+
+#s{
+    text-align: center;
+    position: absolute;
+    bottom: 6.5rem;
+    font-size: 1.2rem;
+}
+#p{
+    text-align: center;
+    position: absolute;
+    bottom: 10.5rem;
+    font-size: 1.2rem;
+}
+#wel{
+    font-size: 2rem;
+    background-color: transparent;
+}
+h3{
+    position: absolute;
+    text-align: center;
+    width: 20rem;
+    top: 11.5rem;
+    background-color: rgb(243, 197, 197);
+    /* margin: 2.5rem; */
+    font-size: 1.25rem;
+}
+a{
+    margin-left: 1rem;
+    color:#fff;
+}
+
+
+

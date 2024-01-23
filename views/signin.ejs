@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <h2 id="log">Login</h2>
+    <% if(messages.length > 0){%>
+        <h3 style="color: black;"><%= messages[0] %></h3>
+        <% } %>
+<form  id="signin" action="/signin" method="post">
+    <div>
+        <label for="">Username</label>
+        <input type="text" name="name">
+    </div>
+    
+    <div>
+        <label for=""> Password</label>
+        <input type="password" name="password">
+    </div>
+    <div>
+      <button> Signin</button>
+    </div>
+</form>
+
+<p id="p">New User ? <a href="/signup">Register</a></p>
+</body>
+</html>
